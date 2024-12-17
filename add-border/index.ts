@@ -4,9 +4,8 @@ function addBorder(picture: string[]): string[] {
     picture.unshift(wall);
     picture.push(wall);
 
-    for (let i=1; i<picture.length - 1; i++) {
+    for (let i=1; i<picture.length - 1; i++)
         picture[i] = "*".concat(picture[i], "*");
-    }
 
     return picture;
 }

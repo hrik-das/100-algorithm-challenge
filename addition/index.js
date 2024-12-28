@@ -6,10 +6,11 @@ console.log(addition(1, 2));
 console.log(addition(2, 3));
 
 function additionOfNumbers(...numbers) {
+    console.log(numbers);
     let result = 0;
 
     numbers.forEach((number) => {
-        result = result + number
+        result = result + number;
     });
 
     return result;

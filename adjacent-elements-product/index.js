@@ -5,7 +5,7 @@ function adjacentElementsProduct(ary) {
         const product = ary[i] * ary[i+1];
 
         if (largest_product < product)
-            largest_product = product
+            largest_product = product;
     }
 
     return largest_product;

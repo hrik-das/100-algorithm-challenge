@@ -13,4 +13,4 @@ function allLongestStrings(array) {
     return longest_words;
 }
 
-console.log(allLongestStrings(["aba", "aa", "bv", "lks", "mn", "ojk"]));
+console.log(allLongestStrings(["aba", "aa", "bv", "lks", "mn", "ojk", "cv"]));

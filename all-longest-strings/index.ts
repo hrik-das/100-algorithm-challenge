@@ -6,6 +6,7 @@ function allLongestStrings(array: string[]): string[] {
     
     array.forEach(word => {
         if (longest_length === word.length)
+            // @ts-ignore
             longest_words.push(word);
     });
 
